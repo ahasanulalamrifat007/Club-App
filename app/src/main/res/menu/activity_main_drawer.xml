@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_layout"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_upcomingevents_layout"
+            android:icon="@drawable/upcoming"
+            android:title="Up Coming Events" />
+        <item
+            android:id="@+id/nav_executivemembers_layout"
+            android:icon="@drawable/user"
+            android:title="Executive Members" />
+        <item
+            android:id="@+id/nav_setreminders_layout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Set Reminders" />
+        <item
+            android:id="@+id/nav_clubwebsite_layout"
+            android:icon="@drawable/search"
+            android:title="Contact US" />
+    </group>
+
+
+</menu>
